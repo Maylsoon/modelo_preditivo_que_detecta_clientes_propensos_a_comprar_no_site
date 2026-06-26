@@ -1,6 +1,6 @@
-#👨‍💻 **Previsão de intenção de compras em um site de e-commerce**
+# 👨‍💻 **Previsão de intenção de compras em um site de e-commerce**
 
-##🎯 **Objetivo do projeto**
+## 🎯 **Objetivo do projeto**
 
  desenvolver um modelo preditivo de machine learning capaz de analisar os padrões de comportamento dos clientes e identificar sinais que indiquem uma propensão deles a realizar compras no site da empresa. 
 
@@ -60,7 +60,7 @@ Há 806 compradores sem crianças em casa, enquanto quando se há 2 crianças em
 |  2 | Xgboost           |      0.99 |        0.85 |            0.01 |       0.91 |
 
 
-![duelo de modelos]('FIGURAS/duelo.png')
+![duelo de modelos](FIGURAS/duelo.png)
 
 
 A árvore de decisão como baseline apresentou ótima performance inicial, com 0.98 de ROC_AUC, que mostra a capacidade do modelo em separar bem as duas classes, embora tenha apresentado leve instabilidade entre os folds de treinamento (desvio: 0.02).
@@ -105,7 +105,7 @@ O modelo acertou 458 dos 510 registros do estudo (90% acurácia), além de uma �
 
 ## **Variáveis importantes para o modelo**
 
-![features_importance]('FIGURAS/feature_importance.png')
+![features_importance](FIGURAS/feature_importance.png)
 ## **Conclusões**
 
 O modelo se apoia em variáveis comportamentais: `gastos totais, gastos com vinhos, com carnes`
